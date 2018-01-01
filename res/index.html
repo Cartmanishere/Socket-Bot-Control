@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="/socket.io/socket.io.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+	<script
+    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title>IoT Controller | Brought to you by Pranav & Akshay</title>
+	<link href="style.css" rel="stylesheet"></link>
+	<script src="Iot.js"></script></head>
+<body>
+
+<!-- Start Page Loading -->
+  <div id="loader-wrapper">
+      <div id="loader"></div>        
+      <div class="loader-section section-left"></div>
+      <div class="loader-section section-right"></div>
+  </div>
+<!-- End Page Loading -->
+
+	<center><h1 id="main-heading" class="center-align z-depth-4 scale-transition scale-out" align="center"><span id="main-heading-text">Welcome to our IoT Project</span></h1></center>
+	<div id="main-content" class="container center-align">
+
+
+		<div class="row">
+			<div class="col s12" id="button">
+				<a class="btn-floating btn-large waves-effect waves-light purple darken-4 z-depth-2  scale-transition scale-out" id="forward_button"><i class="material-icons">keyboard_arrow_up</i></a>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col s4">
+				<a class="btn-floating btn-large waves-effect waves-light purple darken-4 z-depth-2 scale-transition scale-out" id="left_button"><i class="material-icons">keyboard_arrow_left</i></a>
+			</div>
+			<div class="col s4">
+				<a class="btn-floating btn-large waves-effect waves-light purple darken-4 z-depth-2 scale-transition scale-out" id="stop_button"><i class="material-icons">stop</i></a>
+			</div>
+			<div class="col s4">
+				<a class="btn-floating btn-large waves-effect waves-light purple darken-4 z-depth-2 scale-transition scale-out" id="right_button"><i class="material-icons">keyboard_arrow_right</i></a>
+			</div>
+		</div>
+		<br>
+		<br>
+		<div class="row">
+			<div class="col s12">
+				<a class="btn-floating btn-large waves-effect waves-light purple darken-4 z-depth-2 scale-transition scale-out" id="backward_button"><i class="material-icons">keyboard_arrow_down</i></a>
+			</div>
+		</div>
+		<br>
+	</div>
+
+
+</body>
+</html>

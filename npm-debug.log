@@ -1,0 +1,769 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', 'pigpio' ]
+2 info using npm@1.4.21
+3 info using node@v0.10.29
+4 warn package.json test@0.0.0 No description
+5 warn package.json test@0.0.0 No repository field.
+6 warn package.json test@0.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'pigpio', null ]
+9 verbose cache add name=undefined spec="pigpio" args=["pigpio",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'pigpio',
+10 verbose parsed url   path: 'pigpio',
+10 verbose parsed url   href: 'pigpio' }
+11 silly lockFile d7f5beb8-pigpio pigpio
+12 verbose lock pigpio /home/pi/.npm/d7f5beb8-pigpio.lock
+13 silly lockFile d7f5beb8-pigpio pigpio
+14 silly lockFile d7f5beb8-pigpio pigpio
+15 verbose addNamed [ 'pigpio', '' ]
+16 verbose addNamed [ null, '*' ]
+17 silly lockFile 3522c0ad-pigpio pigpio@
+18 verbose lock pigpio@ /home/pi/.npm/3522c0ad-pigpio.lock
+19 silly addNameRange { name: 'pigpio', range: '*', hasData: false }
+20 verbose request where is /pigpio
+21 verbose request registry https://registry.npmjs.org/
+22 verbose request id 1ab3a540b0e5f7e5
+23 verbose url raw /pigpio
+24 verbose url resolving [ 'https://registry.npmjs.org/', './pigpio' ]
+25 verbose url resolved https://registry.npmjs.org/pigpio
+26 verbose request where is https://registry.npmjs.org/pigpio
+27 info trying registry request attempt 1 at 15:56:36
+28 http GET https://registry.npmjs.org/pigpio
+29 http 200 https://registry.npmjs.org/pigpio
+30 silly registry.get cb [ 200,
+30 silly registry.get   { server: 'nginx/1.10.3',
+30 silly registry.get     'content-type': 'application/json',
+30 silly registry.get     'last-modified': 'Tue, 25 Jul 2017 21:08:23 GMT',
+30 silly registry.get     etag: 'W/"5977b347-9336"',
+30 silly registry.get     'content-encoding': 'gzip',
+30 silly registry.get     'cache-control': 'max-age=300',
+30 silly registry.get     'content-length': '6638',
+30 silly registry.get     'accept-ranges': 'bytes',
+30 silly registry.get     date: 'Fri, 28 Jul 2017 15:56:37 GMT',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     age: '0',
+30 silly registry.get     connection: 'keep-alive',
+30 silly registry.get     'x-served-by': 'cache-sin18032-SIN',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1501257398.677392,VS0,VE146',
+30 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+31 silly addNameRange number 2 { name: 'pigpio', range: '*', hasData: true }
+32 silly addNameRange versions [ 'pigpio',
+32 silly addNameRange   [ '0.0.0',
+32 silly addNameRange     '0.0.1',
+32 silly addNameRange     '0.0.2',
+32 silly addNameRange     '0.0.3',
+32 silly addNameRange     '0.0.4',
+32 silly addNameRange     '0.0.5',
+32 silly addNameRange     '0.0.7',
+32 silly addNameRange     '0.0.8',
+32 silly addNameRange     '0.1.0',
+32 silly addNameRange     '0.1.1',
+32 silly addNameRange     '0.1.2',
+32 silly addNameRange     '0.1.3',
+32 silly addNameRange     '0.2.0',
+32 silly addNameRange     '0.3.0',
+32 silly addNameRange     '0.3.1',
+32 silly addNameRange     '0.3.2',
+32 silly addNameRange     '0.3.3',
+32 silly addNameRange     '0.3.4',
+32 silly addNameRange     '0.4.0',
+32 silly addNameRange     '0.5.1',
+32 silly addNameRange     '0.6.0',
+32 silly addNameRange     '0.6.1' ] ]
+33 verbose addNamed [ 'pigpio', '0.6.1' ]
+34 verbose addNamed [ '0.6.1', '0.6.1' ]
+35 silly lockFile 05e6141d-pigpio-0-6-1 pigpio@0.6.1
+36 verbose lock pigpio@0.6.1 /home/pi/.npm/05e6141d-pigpio-0-6-1.lock
+37 silly lockFile acf7f0e9-pmjs-org-pigpio-pigpio-0-6-1-tgz https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz
+38 verbose lock https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz /home/pi/.npm/acf7f0e9-pmjs-org-pigpio-pigpio-0-6-1-tgz.lock
+39 verbose addRemoteTarball [ 'https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz',
+39 verbose addRemoteTarball   '567c652e0ff6091f34e070aa3508aeaa2e653708' ]
+40 info retry fetch attempt 1 at 15:56:37
+41 verbose fetch to= /tmp/npm-6233-d7MUK1Aq/registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz
+42 http GET https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz
+43 http 200 https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz
+44 silly lockFile acf7f0e9-pmjs-org-pigpio-pigpio-0-6-1-tgz https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz
+45 silly lockFile acf7f0e9-pmjs-org-pigpio-pigpio-0-6-1-tgz https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz
+46 silly lockFile 05e6141d-pigpio-0-6-1 pigpio@0.6.1
+47 silly lockFile 05e6141d-pigpio-0-6-1 pigpio@0.6.1
+48 silly lockFile 3522c0ad-pigpio pigpio@
+49 silly lockFile 3522c0ad-pigpio pigpio@
+50 silly resolved [ { name: 'pigpio',
+50 silly resolved     version: '0.6.1',
+50 silly resolved     description: 'Fast GPIO, PWM, servo control, state change notification, and interrupt handling on the Raspberry Pi',
+50 silly resolved     main: 'pigpio.js',
+50 silly resolved     directories: { example: 'example', test: 'test' },
+50 silly resolved     scripts:
+50 silly resolved      { test: 'echo "Tests can only be run manually from the command line." && exit 1',
+50 silly resolved        install: 'node-gyp rebuild' },
+50 silly resolved     repository: { type: 'git', url: 'git+https://github.com/fivdi/pigpio.git' },
+50 silly resolved     engines: { node: '>=0.10.0' },
+50 silly resolved     dependencies: { bindings: '~1.2.1', nan: '~2.6.2' },
+50 silly resolved     keywords: [ 'gpio', 'pwm', 'servo', 'interrupt', 'raspberry', 'pi' ],
+50 silly resolved     author: { name: 'fivdi' },
+50 silly resolved     license: 'MIT',
+50 silly resolved     gypfile: true,
+50 silly resolved     gitHead: '1e38233550f5e7e18e91f2dc95ee985025e4075a',
+50 silly resolved     bugs: { url: 'https://github.com/fivdi/pigpio/issues' },
+50 silly resolved     homepage: 'https://github.com/fivdi/pigpio#readme',
+50 silly resolved     _id: 'pigpio@0.6.1',
+50 silly resolved     _shasum: '567c652e0ff6091f34e070aa3508aeaa2e653708',
+50 silly resolved     _from: 'pigpio@',
+50 silly resolved     _npmVersion: '3.9.5',
+50 silly resolved     _nodeVersion: '6.2.2',
+50 silly resolved     _npmUser: { name: 'fivdi', email: 'bdscooke@gmail.com' },
+50 silly resolved     maintainers: [ [Object] ],
+50 silly resolved     dist:
+50 silly resolved      { shasum: '567c652e0ff6091f34e070aa3508aeaa2e653708',
+50 silly resolved        tarball: 'https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz' },
+50 silly resolved     _npmOperationalInternal:
+50 silly resolved      { host: 's3://npm-registry-packages',
+50 silly resolved        tmp: 'tmp/pigpio-0.6.1.tgz_1500099735831_0.4671075346414' },
+50 silly resolved     _resolved: 'https://registry.npmjs.org/pigpio/-/pigpio-0.6.1.tgz' } ]
+51 info install pigpio@0.6.1 into /home/pi/Desktop/Socket
+52 info installOne pigpio@0.6.1
+53 verbose node_modules/pigpio unbuild
+54 verbose tar unpack /home/pi/.npm/pigpio/0.6.1/package.tgz
+55 silly lockFile f3116a02-sktop-Socket-node-modules-pigpio tar:///home/pi/Desktop/Socket/node_modules/pigpio
+56 verbose lock tar:///home/pi/Desktop/Socket/node_modules/pigpio /home/pi/.npm/f3116a02-sktop-Socket-node-modules-pigpio.lock
+57 silly lockFile 6bec535a--pi-npm-pigpio-0-6-1-package-tgz tar:///home/pi/.npm/pigpio/0.6.1/package.tgz
+58 verbose lock tar:///home/pi/.npm/pigpio/0.6.1/package.tgz /home/pi/.npm/6bec535a--pi-npm-pigpio-0-6-1-package-tgz.lock
+59 silly gunzTarPerm modes [ '755', '644' ]
+60 silly gunzTarPerm extractEntry package.json
+61 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+62 silly gunzTarPerm extractEntry .npmignore
+63 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+64 silly gunzTarPerm extractEntry README.md
+65 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+66 silly gunzTarPerm extractEntry LICENSE
+67 silly gunzTarPerm modified mode [ 'LICENSE', 436, 420 ]
+68 silly gunzTarPerm extractEntry pigpio.js
+69 silly gunzTarPerm modified mode [ 'pigpio.js', 436, 420 ]
+70 silly gunzTarPerm extractEntry History.md
+71 silly gunzTarPerm modified mode [ 'History.md', 436, 420 ]
+72 silly gunzTarPerm extractEntry example/alert.js
+73 silly gunzTarPerm modified mode [ 'example/alert.js', 436, 420 ]
+74 silly gunzTarPerm extractEntry example/blinky.js
+75 silly gunzTarPerm modified mode [ 'example/blinky.js', 436, 420 ]
+76 silly gunzTarPerm extractEntry example/distance-hc-sr04.js
+77 silly gunzTarPerm modified mode [ 'example/distance-hc-sr04.js', 436, 420 ]
+78 silly gunzTarPerm extractEntry example/gpio-info.js
+79 silly gunzTarPerm modified mode [ 'example/gpio-info.js', 436, 420 ]
+80 silly gunzTarPerm extractEntry example/light-switch.js
+81 silly gunzTarPerm modified mode [ 'example/light-switch.js', 436, 420 ]
+82 silly gunzTarPerm extractEntry example/pulse-led.js
+83 silly gunzTarPerm modified mode [ 'example/pulse-led.js', 436, 420 ]
+84 silly gunzTarPerm extractEntry example/servo.js
+85 silly gunzTarPerm modified mode [ 'example/servo.js', 436, 420 ]
+86 silly gunzTarPerm extractEntry example/distance-hc-sr04.png
+87 silly gunzTarPerm modified mode [ 'example/distance-hc-sr04.png', 436, 420 ]
+88 silly gunzTarPerm extractEntry example/led-button.png
+89 silly gunzTarPerm modified mode [ 'example/led-button.png', 436, 420 ]
+90 silly gunzTarPerm extractEntry example/servo.png
+91 silly gunzTarPerm modified mode [ 'example/servo.png', 436, 420 ]
+92 silly gunzTarPerm extractEntry test/alert-pwm-measurement.js
+93 silly gunzTarPerm modified mode [ 'test/alert-pwm-measurement.js', 436, 420 ]
+94 silly gunzTarPerm extractEntry test/gpio-mode.js
+95 silly gunzTarPerm modified mode [ 'test/gpio-mode.js', 436, 420 ]
+96 silly gunzTarPerm extractEntry test/gpio-numbers.js
+97 silly gunzTarPerm modified mode [ 'test/gpio-numbers.js', 436, 420 ]
+98 silly gunzTarPerm extractEntry test/hardware-revision.js
+99 silly gunzTarPerm modified mode [ 'test/hardware-revision.js', 436, 420 ]
+100 silly gunzTarPerm extractEntry test/do-nothing.js
+101 silly gunzTarPerm modified mode [ 'test/do-nothing.js', 436, 420 ]
+102 silly gunzTarPerm extractEntry test/alert-trigger-pulse-measurement.js
+103 silly gunzTarPerm modified mode [ 'test/alert-trigger-pulse-measurement.js', 436, 420 ]
+104 silly gunzTarPerm extractEntry test/isr-performance.js
+105 silly gunzTarPerm modified mode [ 'test/isr-performance.js', 436, 420 ]
+106 silly gunzTarPerm extractEntry test/isr-timeouts-2.js
+107 silly gunzTarPerm modified mode [ 'test/isr-timeouts-2.js', 436, 420 ]
+108 silly gunzTarPerm extractEntry test/isr-timeouts.js
+109 silly gunzTarPerm modified mode [ 'test/isr-timeouts.js', 436, 420 ]
+110 silly gunzTarPerm extractEntry test/light-switch.js
+111 silly gunzTarPerm modified mode [ 'test/light-switch.js', 436, 420 ]
+112 silly gunzTarPerm extractEntry test/digital-write-performance.js
+113 silly gunzTarPerm modified mode [ 'test/digital-write-performance.js', 436, 420 ]
+114 silly gunzTarPerm extractEntry test/notifier-leak-check.js
+115 silly gunzTarPerm modified mode [ 'test/notifier-leak-check.js', 436, 420 ]
+116 silly gunzTarPerm extractEntry test/digital-read-performance.js
+117 silly gunzTarPerm modified mode [ 'test/digital-read-performance.js', 436, 420 ]
+118 silly gunzTarPerm extractEntry test/notifier-pwm.js
+119 silly gunzTarPerm modified mode [ 'test/notifier-pwm.js', 436, 420 ]
+120 silly gunzTarPerm extractEntry test/servo-control.js
+121 silly gunzTarPerm modified mode [ 'test/servo-control.js', 436, 420 ]
+122 silly gunzTarPerm extractEntry test/notifier-stress.js
+123 silly gunzTarPerm modified mode [ 'test/notifier-stress.js', 436, 420 ]
+124 silly gunzTarPerm extractEntry test/blinky.js
+125 silly gunzTarPerm modified mode [ 'test/blinky.js', 436, 420 ]
+126 silly gunzTarPerm extractEntry test/notifier.js
+127 silly gunzTarPerm modified mode [ 'test/notifier.js', 436, 420 ]
+128 silly gunzTarPerm extractEntry test/blinky-pwm.js
+129 silly gunzTarPerm modified mode [ 'test/blinky-pwm.js', 436, 420 ]
+130 silly gunzTarPerm extractEntry test/pull-up-down.js
+131 silly gunzTarPerm modified mode [ 'test/pull-up-down.js', 436, 420 ]
+132 silly gunzTarPerm extractEntry test/banked-leds.js
+133 silly gunzTarPerm modified mode [ 'test/banked-leds.js', 436, 420 ]
+134 silly gunzTarPerm extractEntry test/pulse-led.js
+135 silly gunzTarPerm modified mode [ 'test/pulse-led.js', 436, 420 ]
+136 silly gunzTarPerm extractEntry test/alert.js
+137 silly gunzTarPerm modified mode [ 'test/alert.js', 436, 420 ]
+138 silly gunzTarPerm extractEntry test/pwm.js
+139 silly gunzTarPerm modified mode [ 'test/pwm.js', 436, 420 ]
+140 silly gunzTarPerm extractEntry test/isr-enable-disable.js
+141 silly gunzTarPerm modified mode [ 'test/isr-enable-disable.js', 436, 420 ]
+142 silly gunzTarPerm extractEntry test/trigger-led.js
+143 silly gunzTarPerm modified mode [ 'test/trigger-led.js', 436, 420 ]
+144 silly gunzTarPerm extractEntry test/isr-multiple-sources.js
+145 silly gunzTarPerm modified mode [ 'test/isr-multiple-sources.js', 436, 420 ]
+146 silly gunzTarPerm extractEntry test/run-tests
+147 silly gunzTarPerm modified mode [ 'test/run-tests', 509, 493 ]
+148 silly gunzTarPerm extractEntry test/c-interface/blinky.js
+149 silly gunzTarPerm modified mode [ 'test/c-interface/blinky.js', 436, 420 ]
+150 silly gunzTarPerm extractEntry test/c-interface/do-nothing.js
+151 silly gunzTarPerm modified mode [ 'test/c-interface/do-nothing.js', 436, 420 ]
+152 silly gunzTarPerm extractEntry test/c-interface/gpio-write-performance.js
+153 silly gunzTarPerm modified mode [ 'test/c-interface/gpio-write-performance.js', 436, 420 ]
+154 silly gunzTarPerm extractEntry test/c-interface/irq-dynamic.js
+155 silly gunzTarPerm modified mode [ 'test/c-interface/irq-dynamic.js', 436, 420 ]
+156 silly gunzTarPerm extractEntry test/c-interface/irq-handle-2-inputs.js
+157 silly gunzTarPerm modified mode [ 'test/c-interface/irq-handle-2-inputs.js', 436, 420 ]
+158 silly gunzTarPerm extractEntry test/c-interface/irq-performance.js
+159 silly gunzTarPerm modified mode [ 'test/c-interface/irq-performance.js', 436, 420 ]
+160 silly gunzTarPerm extractEntry test/c-interface/irq-watch-unwatch.js
+161 silly gunzTarPerm modified mode [ 'test/c-interface/irq-watch-unwatch.js', 436, 420 ]
+162 silly gunzTarPerm extractEntry test/c-interface/light-switch.js
+163 silly gunzTarPerm modified mode [ 'test/c-interface/light-switch.js', 436, 420 ]
+164 silly gunzTarPerm extractEntry test/c-interface/pwm-pulse-10-leds.js
+165 silly gunzTarPerm modified mode [ 'test/c-interface/pwm-pulse-10-leds.js', 436, 420 ]
+166 silly gunzTarPerm extractEntry test/c-interface/run-tests
+167 silly gunzTarPerm modified mode [ 'test/c-interface/run-tests', 509, 493 ]
+168 silly gunzTarPerm extractEntry binding.gyp
+169 silly gunzTarPerm modified mode [ 'binding.gyp', 436, 420 ]
+170 silly gunzTarPerm extractEntry src/pigpio.cc
+171 silly gunzTarPerm modified mode [ 'src/pigpio.cc', 436, 420 ]
+172 silly gunzTarPerm extractEntry doc/configuration.md
+173 silly gunzTarPerm modified mode [ 'doc/configuration.md', 436, 420 ]
+174 silly gunzTarPerm extractEntry doc/gpio.md
+175 silly gunzTarPerm modified mode [ 'doc/gpio.md', 436, 420 ]
+176 silly gunzTarPerm extractEntry doc/gpiobank.md
+177 silly gunzTarPerm modified mode [ 'doc/gpiobank.md', 436, 420 ]
+178 silly gunzTarPerm extractEntry doc/notifier.md
+179 silly gunzTarPerm modified mode [ 'doc/notifier.md', 436, 420 ]
+180 silly lockFile f3116a02-sktop-Socket-node-modules-pigpio tar:///home/pi/Desktop/Socket/node_modules/pigpio
+181 silly lockFile f3116a02-sktop-Socket-node-modules-pigpio tar:///home/pi/Desktop/Socket/node_modules/pigpio
+182 silly lockFile 6bec535a--pi-npm-pigpio-0-6-1-package-tgz tar:///home/pi/.npm/pigpio/0.6.1/package.tgz
+183 silly lockFile 6bec535a--pi-npm-pigpio-0-6-1-package-tgz tar:///home/pi/.npm/pigpio/0.6.1/package.tgz
+184 info preinstall pigpio@0.6.1
+185 verbose readDependencies using package.json deps
+186 verbose readDependencies using package.json deps
+187 verbose cache add [ 'bindings@~1.2.1', null ]
+188 verbose cache add name=undefined spec="bindings@~1.2.1" args=["bindings@~1.2.1",null]
+189 verbose parsed url { protocol: null,
+189 verbose parsed url   slashes: null,
+189 verbose parsed url   auth: null,
+189 verbose parsed url   host: null,
+189 verbose parsed url   port: null,
+189 verbose parsed url   hostname: null,
+189 verbose parsed url   hash: null,
+189 verbose parsed url   search: null,
+189 verbose parsed url   query: null,
+189 verbose parsed url   pathname: 'bindings@~1.2.1',
+189 verbose parsed url   path: 'bindings@~1.2.1',
+189 verbose parsed url   href: 'bindings@~1.2.1' }
+190 verbose cache add [ 'nan@~2.6.2', null ]
+191 verbose cache add name=undefined spec="nan@~2.6.2" args=["nan@~2.6.2",null]
+192 verbose parsed url { protocol: null,
+192 verbose parsed url   slashes: null,
+192 verbose parsed url   auth: null,
+192 verbose parsed url   host: null,
+192 verbose parsed url   port: null,
+192 verbose parsed url   hostname: null,
+192 verbose parsed url   hash: null,
+192 verbose parsed url   search: null,
+192 verbose parsed url   query: null,
+192 verbose parsed url   pathname: 'nan@~2.6.2',
+192 verbose parsed url   path: 'nan@~2.6.2',
+192 verbose parsed url   href: 'nan@~2.6.2' }
+193 verbose cache add name="bindings" spec="~1.2.1" args=["bindings","~1.2.1"]
+194 verbose parsed url { protocol: null,
+194 verbose parsed url   slashes: null,
+194 verbose parsed url   auth: null,
+194 verbose parsed url   host: null,
+194 verbose parsed url   port: null,
+194 verbose parsed url   hostname: null,
+194 verbose parsed url   hash: null,
+194 verbose parsed url   search: null,
+194 verbose parsed url   query: null,
+194 verbose parsed url   pathname: '~1.2.1',
+194 verbose parsed url   path: '~1.2.1',
+194 verbose parsed url   href: '~1.2.1' }
+195 verbose addNamed [ 'bindings', '~1.2.1' ]
+196 verbose addNamed [ null, '>=1.2.1-0 <1.3.0-0' ]
+197 silly lockFile b7a61b57-bindings-1-2-1 bindings@~1.2.1
+198 verbose lock bindings@~1.2.1 /home/pi/.npm/b7a61b57-bindings-1-2-1.lock
+199 verbose cache add name="nan" spec="~2.6.2" args=["nan","~2.6.2"]
+200 verbose parsed url { protocol: null,
+200 verbose parsed url   slashes: null,
+200 verbose parsed url   auth: null,
+200 verbose parsed url   host: null,
+200 verbose parsed url   port: null,
+200 verbose parsed url   hostname: null,
+200 verbose parsed url   hash: null,
+200 verbose parsed url   search: null,
+200 verbose parsed url   query: null,
+200 verbose parsed url   pathname: '~2.6.2',
+200 verbose parsed url   path: '~2.6.2',
+200 verbose parsed url   href: '~2.6.2' }
+201 verbose addNamed [ 'nan', '~2.6.2' ]
+202 verbose addNamed [ null, '>=2.6.2-0 <2.7.0-0' ]
+203 silly lockFile 17824155-nan-2-6-2 nan@~2.6.2
+204 verbose lock nan@~2.6.2 /home/pi/.npm/17824155-nan-2-6-2.lock
+205 silly addNameRange { name: 'bindings', range: '>=1.2.1-0 <1.3.0-0', hasData: false }
+206 verbose request where is /bindings
+207 verbose request registry https://registry.npmjs.org/
+208 verbose url raw /bindings
+209 verbose url resolving [ 'https://registry.npmjs.org/', './bindings' ]
+210 verbose url resolved https://registry.npmjs.org/bindings
+211 verbose request where is https://registry.npmjs.org/bindings
+212 info trying registry request attempt 1 at 15:56:43
+213 http GET https://registry.npmjs.org/bindings
+214 silly addNameRange { name: 'nan', range: '>=2.6.2-0 <2.7.0-0', hasData: false }
+215 verbose request where is /nan
+216 verbose request registry https://registry.npmjs.org/
+217 verbose url raw /nan
+218 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+219 verbose url resolved https://registry.npmjs.org/nan
+220 verbose request where is https://registry.npmjs.org/nan
+221 info trying registry request attempt 1 at 15:56:43
+222 http GET https://registry.npmjs.org/nan
+223 http 200 https://registry.npmjs.org/bindings
+224 silly registry.get cb [ 200,
+224 silly registry.get   { server: 'nginx/1.10.3',
+224 silly registry.get     'content-type': 'application/json',
+224 silly registry.get     'last-modified': 'Mon, 24 Jul 2017 19:16:08 GMT',
+224 silly registry.get     etag: 'W/"59764778-4c05"',
+224 silly registry.get     'content-encoding': 'gzip',
+224 silly registry.get     'cache-control': 'max-age=300',
+224 silly registry.get     'content-length': '3835',
+224 silly registry.get     'accept-ranges': 'bytes',
+224 silly registry.get     date: 'Fri, 28 Jul 2017 15:56:45 GMT',
+224 silly registry.get     via: '1.1 varnish',
+224 silly registry.get     age: '23',
+224 silly registry.get     connection: 'keep-alive',
+224 silly registry.get     'x-served-by': 'cache-sin18020-SIN',
+224 silly registry.get     'x-cache': 'HIT',
+224 silly registry.get     'x-cache-hits': '1',
+224 silly registry.get     'x-timer': 'S1501257405.059734,VS0,VE0',
+224 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+225 silly addNameRange number 2 { name: 'bindings', range: '>=1.2.1-0 <1.3.0-0', hasData: true }
+226 silly addNameRange versions [ 'bindings',
+226 silly addNameRange   [ '0.0.1',
+226 silly addNameRange     '0.1.0',
+226 silly addNameRange     '0.1.1',
+226 silly addNameRange     '0.2.0',
+226 silly addNameRange     '0.2.1',
+226 silly addNameRange     '0.2.2',
+226 silly addNameRange     '0.2.3',
+226 silly addNameRange     '0.2.4',
+226 silly addNameRange     '0.3.0',
+226 silly addNameRange     '0.4.0',
+226 silly addNameRange     '1.0.0',
+226 silly addNameRange     '1.1.0',
+226 silly addNameRange     '1.1.1',
+226 silly addNameRange     '1.2.0',
+226 silly addNameRange     '1.2.1',
+226 silly addNameRange     '1.3.0' ] ]
+227 verbose addNamed [ 'bindings', '1.2.1' ]
+228 verbose addNamed [ '1.2.1', '1.2.1' ]
+229 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+230 verbose lock bindings@1.2.1 /home/pi/.npm/e9060511-bindings-1-2-1.lock
+231 silly lockFile 0932abb1--org-bindings-bindings-1-2-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+232 verbose lock https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz /home/pi/.npm/0932abb1--org-bindings-bindings-1-2-1-tgz.lock
+233 verbose addRemoteTarball [ 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz',
+233 verbose addRemoteTarball   '14ad6113812d2d37d72e67b4cacb4bb726505f11' ]
+234 info retry fetch attempt 1 at 15:56:44
+235 verbose fetch to= /tmp/npm-6233-d7MUK1Aq/registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+236 http GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+237 http 200 https://registry.npmjs.org/nan
+238 silly registry.get cb [ 200,
+238 silly registry.get   { server: 'nginx/1.10.3',
+238 silly registry.get     'content-type': 'application/json',
+238 silly registry.get     'last-modified': 'Thu, 27 Jul 2017 17:03:33 GMT',
+238 silly registry.get     etag: 'W/"597a1ce5-1fa1a"',
+238 silly registry.get     'content-encoding': 'gzip',
+238 silly registry.get     'cache-control': 'max-age=300',
+238 silly registry.get     'content-length': '15256',
+238 silly registry.get     'accept-ranges': 'bytes',
+238 silly registry.get     date: 'Fri, 28 Jul 2017 15:56:45 GMT',
+238 silly registry.get     via: '1.1 varnish',
+238 silly registry.get     age: '185',
+238 silly registry.get     connection: 'keep-alive',
+238 silly registry.get     'x-served-by': 'cache-sin18024-SIN',
+238 silly registry.get     'x-cache': 'HIT',
+238 silly registry.get     'x-cache-hits': '229',
+238 silly registry.get     'x-timer': 'S1501257405.009532,VS0,VE0',
+238 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+239 silly addNameRange number 2 { name: 'nan', range: '>=2.6.2-0 <2.7.0-0', hasData: true }
+240 silly addNameRange versions [ 'nan',
+240 silly addNameRange   [ '0.3.0-wip',
+240 silly addNameRange     '0.3.0-wip2',
+240 silly addNameRange     '0.3.0',
+240 silly addNameRange     '0.3.1',
+240 silly addNameRange     '0.3.2',
+240 silly addNameRange     '0.4.0',
+240 silly addNameRange     '0.4.1',
+240 silly addNameRange     '0.4.2',
+240 silly addNameRange     '0.4.3',
+240 silly addNameRange     '0.4.4',
+240 silly addNameRange     '0.5.0',
+240 silly addNameRange     '0.5.1',
+240 silly addNameRange     '0.5.2',
+240 silly addNameRange     '0.6.0',
+240 silly addNameRange     '0.7.0',
+240 silly addNameRange     '0.7.1',
+240 silly addNameRange     '0.8.0',
+240 silly addNameRange     '1.0.0',
+240 silly addNameRange     '1.1.0',
+240 silly addNameRange     '1.1.1',
+240 silly addNameRange     '1.1.2',
+240 silly addNameRange     '1.2.0',
+240 silly addNameRange     '1.3.0',
+240 silly addNameRange     '1.4.0',
+240 silly addNameRange     '1.4.1',
+240 silly addNameRange     '1.5.0',
+240 silly addNameRange     '1.4.2',
+240 silly addNameRange     '1.4.3',
+240 silly addNameRange     '1.5.1',
+240 silly addNameRange     '1.5.2',
+240 silly addNameRange     '1.6.0',
+240 silly addNameRange     '1.5.3',
+240 silly addNameRange     '1.6.1',
+240 silly addNameRange     '1.6.2',
+240 silly addNameRange     '1.7.0',
+240 silly addNameRange     '1.8.0',
+240 silly addNameRange     '1.8.1',
+240 silly addNameRange     '1.8.2',
+240 silly addNameRange     '1.8.3',
+240 silly addNameRange     '1.8.4',
+240 silly addNameRange     '1.9.0',
+240 silly addNameRange     '2.0.0',
+240 silly addNameRange     '2.0.1',
+240 silly addNameRange     '2.0.2',
+240 silly addNameRange     '2.0.3',
+240 silly addNameRange     '2.0.4',
+240 silly addNameRange     '2.0.5',
+240 silly addNameRange     '2.0.6',
+240 silly addNameRange     '2.0.7',
+240 silly addNameRange     '2.0.8',
+240 silly addNameRange     '2.0.9',
+240 silly addNameRange     '2.1.0',
+240 silly addNameRange     '2.2.0',
+240 silly addNameRange     '2.2.1',
+240 silly addNameRange     '2.3.0',
+240 silly addNameRange     '2.3.1',
+240 silly addNameRange     '2.3.2',
+240 silly addNameRange     '2.3.3',
+240 silly addNameRange     '2.3.4',
+240 silly addNameRange     '2.3.5',
+240 silly addNameRange     '2.4.0',
+240 silly addNameRange     '2.5.0',
+240 silly addNameRange     '2.5.1',
+240 silly addNameRange     '2.6.0',
+240 silly addNameRange     '2.6.1',
+240 silly addNameRange     '2.6.2' ] ]
+241 verbose addNamed [ 'nan', '2.6.2' ]
+242 verbose addNamed [ '2.6.2', '2.6.2' ]
+243 silly lockFile 49e5e6ab-nan-2-6-2 nan@2.6.2
+244 verbose lock nan@2.6.2 /home/pi/.npm/49e5e6ab-nan-2-6-2.lock
+245 silly lockFile d0e372e9-stry-npmjs-org-nan-nan-2-6-2-tgz https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+246 verbose lock https://registry.npmjs.org/nan/-/nan-2.6.2.tgz /home/pi/.npm/d0e372e9-stry-npmjs-org-nan-nan-2-6-2-tgz.lock
+247 verbose addRemoteTarball [ 'https://registry.npmjs.org/nan/-/nan-2.6.2.tgz',
+247 verbose addRemoteTarball   'e4ff34e6c95fdfb5aecc08de6596f43605a7db45' ]
+248 info retry fetch attempt 1 at 15:56:45
+249 verbose fetch to= /tmp/npm-6233-d7MUK1Aq/registry.npmjs.org/nan/-/nan-2.6.2.tgz
+250 http GET https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+251 http 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+252 silly lockFile 0932abb1--org-bindings-bindings-1-2-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+253 silly lockFile 0932abb1--org-bindings-bindings-1-2-1-tgz https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+254 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+255 silly lockFile e9060511-bindings-1-2-1 bindings@1.2.1
+256 silly lockFile b7a61b57-bindings-1-2-1 bindings@~1.2.1
+257 silly lockFile b7a61b57-bindings-1-2-1 bindings@~1.2.1
+258 http 200 https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+259 silly lockFile d0e372e9-stry-npmjs-org-nan-nan-2-6-2-tgz https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+260 silly lockFile d0e372e9-stry-npmjs-org-nan-nan-2-6-2-tgz https://registry.npmjs.org/nan/-/nan-2.6.2.tgz
+261 silly lockFile 49e5e6ab-nan-2-6-2 nan@2.6.2
+262 silly lockFile 49e5e6ab-nan-2-6-2 nan@2.6.2
+263 silly lockFile 17824155-nan-2-6-2 nan@~2.6.2
+264 silly lockFile 17824155-nan-2-6-2 nan@~2.6.2
+265 silly resolved [ { name: 'bindings',
+265 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+265 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+265 silly resolved     version: '1.2.1',
+265 silly resolved     author:
+265 silly resolved      { name: 'Nathan Rajlich',
+265 silly resolved        email: 'nathan@tootallnate.net',
+265 silly resolved        url: 'http://tootallnate.net' },
+265 silly resolved     repository:
+265 silly resolved      { type: 'git',
+265 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+265 silly resolved     main: './bindings.js',
+265 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+265 silly resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+265 silly resolved     license: 'MIT',
+265 silly resolved     gitHead: 'e404152ee27f8478ccbc7122ee051246e8e5ec02',
+265 silly resolved     _id: 'bindings@1.2.1',
+265 silly resolved     scripts: {},
+265 silly resolved     _shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+265 silly resolved     _from: 'bindings@~1.2.1',
+265 silly resolved     _npmVersion: '1.4.14',
+265 silly resolved     _npmUser: { name: 'tootallnate', email: 'nathan@tootallnate.net' },
+265 silly resolved     maintainers: [ [Object], [Object] ],
+265 silly resolved     dist:
+265 silly resolved      { shasum: '14ad6113812d2d37d72e67b4cacb4bb726505f11',
+265 silly resolved        tarball: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+265 silly resolved     directories: {},
+265 silly resolved     _resolved: 'https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz' },
+265 silly resolved   { name: 'nan',
+265 silly resolved     version: '2.6.2',
+265 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8 -> 7 compatibility',
+265 silly resolved     main: 'include_dirs.js',
+265 silly resolved     repository: { type: 'git', url: 'git://github.com/nodejs/nan.git' },
+265 silly resolved     scripts:
+265 silly resolved      { test: 'tap --gc --stderr test/js/*-test.js',
+265 silly resolved        'rebuild-tests': 'node-gyp rebuild --msvs_version=2013 --directory test',
+265 silly resolved        docs: 'doc/.build.sh' },
+265 silly resolved     contributors:
+265 silly resolved      [ [Object],
+265 silly resolved        [Object],
+265 silly resolved        [Object],
+265 silly resolved        [Object],
+265 silly resolved        [Object],
+265 silly resolved        [Object],
+265 silly resolved        [Object],
+265 silly resolved        [Object] ],
+265 silly resolved     devDependencies:
+265 silly resolved      { bindings: '~1.2.1',
+265 silly resolved        commander: '^2.8.1',
+265 silly resolved        glob: '^5.0.14',
+265 silly resolved        'node-gyp': '~3.0.1',
+265 silly resolved        'readable-stream': '^2.1.4',
+265 silly resolved        tap: '~0.7.1',
+265 silly resolved        xtend: '~4.0.0' },
+265 silly resolved     license: 'MIT',
+265 silly resolved     gitHead: 'f0b2f64c1e5317888f2e12fdefb2f105e7018552',
+265 silly resolved     bugs: { url: 'https://github.com/nodejs/nan/issues' },
+265 silly resolved     homepage: 'https://github.com/nodejs/nan#readme',
+265 silly resolved     _id: 'nan@2.6.2',
+265 silly resolved     _shasum: 'e4ff34e6c95fdfb5aecc08de6596f43605a7db45',
+265 silly resolved     _from: 'nan@~2.6.2',
+265 silly resolved     _npmVersion: '4.1.2',
+265 silly resolved     _nodeVersion: '7.5.0',
+265 silly resolved     _npmUser: { name: 'kkoopa', email: 'bbyholm@abo.fi' },
+265 silly resolved     dist:
+265 silly resolved      { shasum: 'e4ff34e6c95fdfb5aecc08de6596f43605a7db45',
+265 silly resolved        tarball: 'https://registry.npmjs.org/nan/-/nan-2.6.2.tgz' },
+265 silly resolved     maintainers: [ [Object], [Object] ],
+265 silly resolved     _npmOperationalInternal:
+265 silly resolved      { host: 'packages-12-west.internal.npmjs.com',
+265 silly resolved        tmp: 'tmp/nan-2.6.2.tgz_1492029516320_0.2352329883724451' },
+265 silly resolved     directories: {},
+265 silly resolved     _resolved: 'https://registry.npmjs.org/nan/-/nan-2.6.2.tgz' } ]
+266 info install bindings@1.2.1 into /home/pi/Desktop/Socket/node_modules/pigpio
+267 info install nan@2.6.2 into /home/pi/Desktop/Socket/node_modules/pigpio
+268 info installOne bindings@1.2.1
+269 info installOne nan@2.6.2
+270 verbose node_modules/pigpio/node_modules/bindings unbuild
+271 verbose node_modules/pigpio/node_modules/nan unbuild
+272 verbose tar unpack /home/pi/.npm/bindings/1.2.1/package.tgz
+273 silly lockFile 6671ddd2-les-pigpio-node-modules-bindings tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/bindings
+274 verbose lock tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/bindings /home/pi/.npm/6671ddd2-les-pigpio-node-modules-bindings.lock
+275 silly lockFile 2dc3eda1-i-npm-bindings-1-2-1-package-tgz tar:///home/pi/.npm/bindings/1.2.1/package.tgz
+276 verbose lock tar:///home/pi/.npm/bindings/1.2.1/package.tgz /home/pi/.npm/2dc3eda1-i-npm-bindings-1-2-1-package-tgz.lock
+277 verbose tar unpack /home/pi/.npm/nan/2.6.2/package.tgz
+278 silly lockFile b809b8d9--modules-pigpio-node-modules-nan tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/nan
+279 verbose lock tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/nan /home/pi/.npm/b809b8d9--modules-pigpio-node-modules-nan.lock
+280 silly lockFile 2b9a94c6-ome-pi-npm-nan-2-6-2-package-tgz tar:///home/pi/.npm/nan/2.6.2/package.tgz
+281 verbose lock tar:///home/pi/.npm/nan/2.6.2/package.tgz /home/pi/.npm/2b9a94c6-ome-pi-npm-nan-2-6-2-package-tgz.lock
+282 silly gunzTarPerm modes [ '755', '644' ]
+283 silly gunzTarPerm modes [ '755', '644' ]
+284 silly gunzTarPerm extractEntry package.json
+285 silly gunzTarPerm extractEntry package.json
+286 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+287 silly gunzTarPerm extractEntry README.md
+288 silly gunzTarPerm extractEntry bindings.js
+289 silly gunzTarPerm extractEntry README.md
+290 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+291 silly gunzTarPerm extractEntry include_dirs.js
+292 silly gunzTarPerm modified mode [ 'include_dirs.js', 436, 420 ]
+293 silly gunzTarPerm extractEntry nan_converters_43_inl.h
+294 silly gunzTarPerm modified mode [ 'nan_converters_43_inl.h', 436, 420 ]
+295 silly gunzTarPerm extractEntry LICENSE.md
+296 silly gunzTarPerm modified mode [ 'LICENSE.md', 436, 420 ]
+297 silly lockFile 6671ddd2-les-pigpio-node-modules-bindings tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/bindings
+298 silly lockFile 6671ddd2-les-pigpio-node-modules-bindings tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/bindings
+299 silly lockFile 2dc3eda1-i-npm-bindings-1-2-1-package-tgz tar:///home/pi/.npm/bindings/1.2.1/package.tgz
+300 silly lockFile 2dc3eda1-i-npm-bindings-1-2-1-package-tgz tar:///home/pi/.npm/bindings/1.2.1/package.tgz
+301 info preinstall bindings@1.2.1
+302 verbose readDependencies using package.json deps
+303 verbose readDependencies using package.json deps
+304 silly resolved []
+305 verbose about to build /home/pi/Desktop/Socket/node_modules/pigpio/node_modules/bindings
+306 info build /home/pi/Desktop/Socket/node_modules/pigpio/node_modules/bindings
+307 verbose linkStuff [ false,
+307 verbose linkStuff   false,
+307 verbose linkStuff   false,
+307 verbose linkStuff   '/home/pi/Desktop/Socket/node_modules/pigpio/node_modules' ]
+308 info linkStuff bindings@1.2.1
+309 verbose linkBins bindings@1.2.1
+310 verbose linkMans bindings@1.2.1
+311 verbose rebuildBundles bindings@1.2.1
+312 info install bindings@1.2.1
+313 info postinstall bindings@1.2.1
+314 silly gunzTarPerm extractEntry doc/new.md
+315 silly gunzTarPerm modified mode [ 'doc/new.md', 436, 420 ]
+316 silly gunzTarPerm extractEntry doc/asyncworker.md
+317 silly gunzTarPerm modified mode [ 'doc/asyncworker.md', 436, 420 ]
+318 silly gunzTarPerm extractEntry doc/callback.md
+319 silly gunzTarPerm modified mode [ 'doc/callback.md', 436, 420 ]
+320 silly gunzTarPerm extractEntry doc/converters.md
+321 silly gunzTarPerm modified mode [ 'doc/converters.md', 436, 420 ]
+322 silly gunzTarPerm extractEntry doc/errors.md
+323 silly gunzTarPerm modified mode [ 'doc/errors.md', 436, 420 ]
+324 silly gunzTarPerm extractEntry doc/json.md
+325 silly gunzTarPerm modified mode [ 'doc/json.md', 436, 420 ]
+326 silly gunzTarPerm extractEntry doc/maybe_types.md
+327 silly gunzTarPerm modified mode [ 'doc/maybe_types.md', 436, 420 ]
+328 silly gunzTarPerm extractEntry doc/methods.md
+329 silly gunzTarPerm modified mode [ 'doc/methods.md', 436, 420 ]
+330 silly gunzTarPerm extractEntry doc/buffers.md
+331 silly gunzTarPerm modified mode [ 'doc/buffers.md', 436, 420 ]
+332 silly gunzTarPerm extractEntry doc/node_misc.md
+333 silly gunzTarPerm modified mode [ 'doc/node_misc.md', 436, 420 ]
+334 silly gunzTarPerm extractEntry doc/object_wrappers.md
+335 silly gunzTarPerm modified mode [ 'doc/object_wrappers.md', 436, 420 ]
+336 silly gunzTarPerm extractEntry doc/persistent.md
+337 silly gunzTarPerm modified mode [ 'doc/persistent.md', 436, 420 ]
+338 silly gunzTarPerm extractEntry doc/scopes.md
+339 silly gunzTarPerm modified mode [ 'doc/scopes.md', 436, 420 ]
+340 silly gunzTarPerm extractEntry doc/script.md
+341 silly gunzTarPerm modified mode [ 'doc/script.md', 436, 420 ]
+342 silly gunzTarPerm extractEntry doc/string_bytes.md
+343 silly gunzTarPerm modified mode [ 'doc/string_bytes.md', 436, 420 ]
+344 silly gunzTarPerm extractEntry doc/v8_internals.md
+345 silly gunzTarPerm modified mode [ 'doc/v8_internals.md', 436, 420 ]
+346 silly gunzTarPerm extractEntry doc/v8_misc.md
+347 silly gunzTarPerm modified mode [ 'doc/v8_misc.md', 436, 420 ]
+348 silly gunzTarPerm extractEntry nan.h
+349 silly gunzTarPerm modified mode [ 'nan.h', 436, 420 ]
+350 silly gunzTarPerm extractEntry nan_callbacks.h
+351 silly gunzTarPerm modified mode [ 'nan_callbacks.h', 436, 420 ]
+352 silly gunzTarPerm extractEntry nan_callbacks_12_inl.h
+353 silly gunzTarPerm modified mode [ 'nan_callbacks_12_inl.h', 436, 420 ]
+354 silly gunzTarPerm extractEntry nan_callbacks_pre_12_inl.h
+355 silly gunzTarPerm modified mode [ 'nan_callbacks_pre_12_inl.h', 436, 420 ]
+356 silly gunzTarPerm extractEntry nan_converters.h
+357 silly gunzTarPerm modified mode [ 'nan_converters.h', 436, 420 ]
+358 silly gunzTarPerm extractEntry nan_converters_pre_43_inl.h
+359 silly gunzTarPerm modified mode [ 'nan_converters_pre_43_inl.h', 436, 420 ]
+360 silly gunzTarPerm extractEntry nan_implementation_12_inl.h
+361 silly gunzTarPerm modified mode [ 'nan_implementation_12_inl.h', 436, 420 ]
+362 silly gunzTarPerm extractEntry nan_implementation_pre_12_inl.h
+363 silly gunzTarPerm modified mode [ 'nan_implementation_pre_12_inl.h', 436, 420 ]
+364 silly gunzTarPerm extractEntry nan_json.h
+365 silly gunzTarPerm modified mode [ 'nan_json.h', 436, 420 ]
+366 silly gunzTarPerm extractEntry nan_maybe_43_inl.h
+367 silly gunzTarPerm modified mode [ 'nan_maybe_43_inl.h', 436, 420 ]
+368 silly gunzTarPerm extractEntry nan_maybe_pre_43_inl.h
+369 silly gunzTarPerm modified mode [ 'nan_maybe_pre_43_inl.h', 436, 420 ]
+370 silly gunzTarPerm extractEntry nan_new.h
+371 silly gunzTarPerm modified mode [ 'nan_new.h', 436, 420 ]
+372 silly gunzTarPerm extractEntry nan_object_wrap.h
+373 silly gunzTarPerm modified mode [ 'nan_object_wrap.h', 436, 420 ]
+374 silly gunzTarPerm extractEntry nan_persistent_12_inl.h
+375 silly gunzTarPerm modified mode [ 'nan_persistent_12_inl.h', 436, 420 ]
+376 silly gunzTarPerm extractEntry nan_persistent_pre_12_inl.h
+377 silly gunzTarPerm modified mode [ 'nan_persistent_pre_12_inl.h', 436, 420 ]
+378 silly gunzTarPerm extractEntry nan_private.h
+379 silly gunzTarPerm modified mode [ 'nan_private.h', 436, 420 ]
+380 silly gunzTarPerm extractEntry nan_string_bytes.h
+381 silly gunzTarPerm modified mode [ 'nan_string_bytes.h', 436, 420 ]
+382 silly gunzTarPerm extractEntry nan_typedarray_contents.h
+383 silly gunzTarPerm modified mode [ 'nan_typedarray_contents.h', 436, 420 ]
+384 silly gunzTarPerm extractEntry nan_weak.h
+385 silly gunzTarPerm modified mode [ 'nan_weak.h', 436, 420 ]
+386 silly gunzTarPerm extractEntry CHANGELOG.md
+387 silly gunzTarPerm modified mode [ 'CHANGELOG.md', 436, 420 ]
+388 silly gunzTarPerm extractEntry tools/package.json
+389 silly gunzTarPerm modified mode [ 'tools/package.json', 436, 420 ]
+390 silly gunzTarPerm extractEntry tools/README.md
+391 silly gunzTarPerm modified mode [ 'tools/README.md', 436, 420 ]
+392 silly gunzTarPerm extractEntry tools/1to2.js
+393 silly gunzTarPerm modified mode [ 'tools/1to2.js', 509, 493 ]
+394 silly lockFile b809b8d9--modules-pigpio-node-modules-nan tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/nan
+395 silly lockFile b809b8d9--modules-pigpio-node-modules-nan tar:///home/pi/Desktop/Socket/node_modules/pigpio/node_modules/nan
+396 silly lockFile 2b9a94c6-ome-pi-npm-nan-2-6-2-package-tgz tar:///home/pi/.npm/nan/2.6.2/package.tgz
+397 silly lockFile 2b9a94c6-ome-pi-npm-nan-2-6-2-package-tgz tar:///home/pi/.npm/nan/2.6.2/package.tgz
+398 info preinstall nan@2.6.2
+399 verbose readDependencies using package.json deps
+400 verbose readDependencies using package.json deps
+401 silly resolved []
+402 verbose about to build /home/pi/Desktop/Socket/node_modules/pigpio/node_modules/nan
+403 info build /home/pi/Desktop/Socket/node_modules/pigpio/node_modules/nan
+404 verbose linkStuff [ false,
+404 verbose linkStuff   false,
+404 verbose linkStuff   false,
+404 verbose linkStuff   '/home/pi/Desktop/Socket/node_modules/pigpio/node_modules' ]
+405 info linkStuff nan@2.6.2
+406 verbose linkBins nan@2.6.2
+407 verbose linkMans nan@2.6.2
+408 verbose rebuildBundles nan@2.6.2
+409 info install nan@2.6.2
+410 info postinstall nan@2.6.2
+411 verbose about to build /home/pi/Desktop/Socket/node_modules/pigpio
+412 info build /home/pi/Desktop/Socket/node_modules/pigpio
+413 verbose linkStuff [ false, false, false, '/home/pi/Desktop/Socket/node_modules' ]
+414 info linkStuff pigpio@0.6.1
+415 verbose linkBins pigpio@0.6.1
+416 verbose linkMans pigpio@0.6.1
+417 verbose rebuildBundles pigpio@0.6.1
+418 verbose rebuildBundles [ 'bindings', 'nan' ]
+419 info install pigpio@0.6.1
+420 verbose unsafe-perm in lifecycle true
+421 info pigpio@0.6.1 Failed to exec install script
+422 verbose node_modules/pigpio unbuild
+423 warn This failure might be due to the use of legacy binary "node"
+424 warn For further explanations, please read
+/usr/share/doc/nodejs/README.Debian
+425 info preuninstall pigpio@0.6.1
+426 info uninstall pigpio@0.6.1
+427 verbose true,/home/pi/Desktop/Socket/node_modules,/home/pi/Desktop/Socket/node_modules unbuild pigpio@0.6.1
+428 info postuninstall pigpio@0.6.1
+429 error pigpio@0.6.1 install: `node-gyp rebuild`
+429 error Exit status 1
+430 error Failed at the pigpio@0.6.1 install script.
+430 error This is most likely a problem with the pigpio package,
+430 error not with npm itself.
+430 error Tell the author that this fails on your system:
+430 error     node-gyp rebuild
+430 error You can get their info via:
+430 error     npm owner ls pigpio
+430 error There is likely additional logging output above.
+431 error System Linux 4.4.21-v7+
+432 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "pigpio"
+433 error cwd /home/pi/Desktop/Socket
+434 error node -v v0.10.29
+435 error npm -v 1.4.21
+436 error code ELIFECYCLE
+437 verbose exit [ 1, true ]

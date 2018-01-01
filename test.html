@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+	<script>
+	var socket = io();
+	function toggle_socket(){
+		socket.emit('toggle', { message: "Change the state" });
+	}
+	$(function(){
+		socket.on('toggle', function(msg){
+			$("#res").text("STATE = " + msg)
+		});
+	});
+	function toggle_http(){
+		$.get('/toggle');
+	}
+	</script>
+	<style type="text/css">
+		button {
+			font-size: 40px;
+		}
+	</style>
+<head>
+	<title>Socket Test</title>
+</head>
+<body>
+<div style="margin: 50px">
+	<button type="button" onclick="toggle_socket()">Toggle Socket</button><br /><br />
+	<button type="button" onclick="toggle_http()">Toggle HTTP</button>
+	<br /><br />
+	<h1 id="res"></h1>
+</div> 
+
+</body>
+</html>
